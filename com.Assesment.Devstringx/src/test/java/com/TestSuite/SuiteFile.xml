@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assessment Tests">
+    <listeners>
+        <listener class-name="com.Tests.Listeners.Listeners"></listener>
+    </listeners>
+    <test name="Assessment Test Execution">
+        <classes>
+            <class name="com.Tests.TestCases.AssessmentTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
